@@ -1,0 +1,7 @@
+celery -A ads worker -l info
+celery -A ads beat -l info
+
+
+pagination:
+
+GET /api/advertisements/?page=1&page_size=10
